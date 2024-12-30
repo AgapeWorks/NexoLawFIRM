@@ -36,12 +36,12 @@ body {
     background-repeat: no-repeat;
 }
 nav {
-    
     width: 100%;
     display: flex;
     justify-content: space-between;
     z-index: 9;
     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
 }
 
 .ix-nav {
@@ -53,42 +53,63 @@ nav {
     position: fixed;
     top: 0;
     background-color: #000000;
-    box-shadow: 1px -16px 15px 11px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0;
 }
 
-    .ix-fixed .nav-link {
-        color: var(--primary-color);
-    }
+.ix-fixed .nav-link {
+    color: white;
+}
 
-.ix-nav .nav-link:hover, .nav-link:focus {
+.ix-nav .nav-link:hover,
+.ix-nav .nav-link:focus {
     color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
 }
-
-.ix-fixed .nav-item.active {
-    border-bottom: 3px solid white;
-}
-
-.ix-moved .nav-item.active {
-    border-bottom: 3px solid var(--primary-color);
-}
-
-    .ix-moved .nav-item.active a:hover {
-        color: #ffffff;
-    }
 
 nav ul li {
     display: inline-flex;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
 .nav-link {
     align-items: center;
     display: flex;
     color: #fff;
-    padding: 0%;
     text-decoration: none;
     letter-spacing: 2px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--primary-color);
+    width: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+.nav-item.active .nav-link {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.nav-item.active .nav-link:after {
+    width: 100%;
+    background: var(--primary-color);
 }
 
 .logo {
@@ -97,21 +118,10 @@ nav ul li {
     float: left;
 }
 
-.ix-fixed .nav-item:hover {
-    color: var(--text-light);
-    border-bottom: 5px solid var(--primary-color);
-    transition: transform 0.3s ease;
-}
-
-/* .nav-link:hover,
-.nav-link:focus {
-    color: var(--primary-color);
-} */
-
-
 .navbar-dark .navbar-toggler-icon {
     background-image: none;
 }
+
 .navbar-nav .nav-item {
     position: relative;
 }
