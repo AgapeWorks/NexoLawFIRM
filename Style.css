@@ -126,7 +126,6 @@
     background-color: lightgray;  
     text-align: center;           /* Center text inside each item */
     border: 1px solid #ccc;      /* Optional: border around items */
-    padding: 5px;                /* Optional: padding inside each item */
 }
 
 .img-grid-item img {
