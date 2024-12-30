@@ -179,9 +179,10 @@
     gap: 2rem;
 }
 .about-img .card-image{
-    width: 100%;
-    object-fit: cover;
+    width: 350px; 
+    height: 350px; 
     border-radius: 100%;
+    box-shadow: var(--shadow-standard);
 }
 .card {
     background: var(--text-light);
@@ -288,7 +289,6 @@
 
 
 .success-section {
-    background-color: var(--bg-light-blue);
     padding: 4rem 0;
 }
 
@@ -309,7 +309,7 @@
 }
 
 .success-image-container {
-    background-color: #ddd;
+    background-color: var(--bg-blue);
     padding: 2rem;
     display: flex;
     align-items: center;

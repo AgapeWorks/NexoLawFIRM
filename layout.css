@@ -30,9 +30,9 @@ body {
 }
 .home-hdr{
     background: url(/Images/BannerImg.jpg)no-repeat 50% 50%;
-    background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-size: 120%; /* Adjust the zoom level; 100% is the original size */
+    background-position: 60% 15%; 
     background-repeat: no-repeat;
 }
 .Abouthome-hdr {
