@@ -1,127 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional law firm providing expert legal services">
-    <title>Law Firm & Legal Services</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Lato:wght@400&family=Ragnar:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"
+        integrity="sha512-b6lGn9+1aD2DgwZXuSY4BhhdrDURVzu7f/PASu4H1i5+CRpEalOOz/HNhgmxZTK9lObM1Q7ZG9jONPYz8klIMg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="Style.css">
 
 </head>
+
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-    
-    <main id="main-content">
-        <section class="hero-section" aria-label="Hero section">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/af5c8cae959dd3f4e5817b79d922651bb644b0df5103201183de93d33d70ab3c?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Law firm building exterior" class="hero-image">
-            <div class="hero-overlay">
-                <header class="header">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/76b0d19a59a8ca76337f103a6d5ea29a33dc71a1f5cb6fabb07f5f4f6496d381?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Law Firm Logo" class="logo">
-                    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-                        <span aria-hidden="true">☰</span>
-                    </button>
-                    <nav aria-label="Main navigation">
-                        <ul class="nav-list">
-                            <li><a href="#home" class="nav-link">HOME</a></li>
-                            <li><a href="#about" class="nav-link">ABOUT US</a></li>
-                            <li><a href="#practice" class="nav-link">PRACTICE AREAS</a></li>
-                            <li><a href="#publications" class="nav-link">PUBLICATIONS</a></li>
-                            <li><a href="#policy" class="nav-link">FIRM POLICY</a></li>
-                            <li><a href="#contact" class="nav-link">CONTACT US</a></li>
-                        </ul>
-                    </nav>
-                </header>
-                <div class="hero-content">
-                    <h1 class="hero-title">LAW FIRM</h1>
-                    <h2 class="hero-subtitle">& LEGAL<br>SERVICES</h2>
-                    <p class="hero-tagline">Championing Justice, One Case at a Time</p>
+    <header class="mainheader home-hdr">
+        <!-- <video autoplay="autoplay" loop="" muted="" playsinline="" id="bg-video" class="vd-width"><source src="img/homepage.mp4" type="video/mp4"></video> -->
+        <!-- =================---Desktop----====================== -->
+        <nav class="ix-nav ix-moved navbar navbar-expand-lg">
+            <div class="container-fluid mx-4 px-5">
+                <div class="logo mx-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="Images/Logo.png" alt="Law Firm Logo" class="logo" style="height: 4vh;">
+                    </a>
+                </div>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="MedicalCoding.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="RealEstate.html">PRACTICE AREAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="BookPublish.html">PUBLICATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="UnderConstruction.html">FIRM POLICY</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Contactus.html">CONTACT US</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </nav>
+        <div class="hero-overlay">
 
-        <div class="main-content">
-            <section id="about" class="section" aria-label="About Us">
+            <div class="hero-content">
+                <h1 class="hero-title">LAW FIRM</h1>
+                <h2 class="hero-subtitle">& LEGAL<br>SERVICES</h2>
+                <p class="hero-tagline">Championing Justice, One Case at a Time</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid p-0">
+        <!-- <section class="hero-section" aria-label="Hero section">
+                <img src="Images/BannerImg.jpg" alt="Law firm building exterior" class="hero-image">
+                <header class="header">
+                    <nav class="ix-nav ix-moved navbar navbar-expand-lg " style="background-color: transparent;">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="Images/Logo.jpeg" alt="Law Firm Logo" class="logo" style="height: 8vh;">
+                            </a>
+                            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: white;"></i>
+                </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#home">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">ABOUT US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#practice">PRACTICE AREAS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#publications">PUBLICATIONS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#policy">FIRM POLICY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">CONTACT US</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="hero-overlay">
+
+                        <div class="hero-content">
+                            <h1 class="hero-title">LAW FIRM</h1>
+                            <h2 class="hero-subtitle">& LEGAL<br>SERVICES</h2>
+                            <p class="hero-tagline">Championing Justice, One Case at a Time</p>
+                        </div>
+                    </div>
+                </header>
+            
+                
+            </section> -->
+        <section id="about" class="section pt-5" aria-label="About Us">
+            <div class="container">
                 <h2 class="section-title">About Us</h2>
                 <div class="section-divider"></div>
                 <div class="grid">
                     <div class="card">
                         <h3 class="card-title">Who We Are</h3>
-                        <p class="card-text">At NEXO LAW FIRM, we are a team of highly skilled attorneys, paralegals, and legal professionals passionate about justice and advocacy. With years of combined experience and a proven track record, we pride ourselves on delivering innovative solutions tailored to meet the unique needs of every client.</p>
+                        <p class="card-text">At NEXO LAW FIRM, we are a team of highly skilled attorneys,
+                            paralegals, and legal professionals passionate about justice and advocacy. With years of
+                            combined experience and a proven track record, we pride ourselves on delivering
+                            innovative solutions tailored to meet the unique needs of every client.</p>
                     </div>
                     <div class="card">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3374be9a3c9ce1c240452c5d3c4ea3316e05220c08f8edc9b75f4b4e21408095?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Law firm team" class="card-image">
+                        <img src="Images/AbouUS.jpg" alt="Law firm team" class="card-image">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="practice" class="section" aria-label="Practice Areas">
+        <section id="practice" class="section pt-5" aria-label="Practice Areas">
+            <div class="container">
                 <h2 class="section-title">Practice Areas</h2>
                 <div class="section-divider"></div>
                 <div class="grid">
                     <div class="card">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1221bc9c40c478acb484435eb066a6b2ca38c84dd1f4424be21aec3c4eadb4ac?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Corporate Law" class="card-image">
+                        <img src="Images/Practice01.webp" alt="Corporate Law" class="card-image">
                         <h3 class="card-title">Corporate Law</h3>
-                        <p class="card-text">Corporate Advocates and Legal Consultants are experts in Commercial litigation. Their job is to ensure that a company's transactions comply with the company's laws and regulations.</p>
+                        <p class="card-text">Corporate Advocates and Legal Consultants are experts in Commercial
+                            litigation. Their job is to ensure that a company's transactions comply with the
+                            company's
+                            laws and regulations.</p>
                     </div>
                     <div class="card">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0a1ac8eb924e0cbc5bec06ed4d7ccc1fe4e2e8d2568a49b25e97685a987f31f?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Banking Law" class="card-image">
+                        <img src="Images/Practice02.jpg" alt="Banking Law" class="card-image">
                         <h3 class="card-title">Banking Law</h3>
-                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your business forward with integrity and innovation.</p>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
                     </div>
                     <div class="card">
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c1144da8db76a0dc7a5171f2cbe7d148648339f89b1439c02e6e34c1339b3bd3?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Real Estate Law" class="card-image">
+                        <img src="Images/Practice03.webp" alt="Real Estate Law" class="card-image">
                         <h3 class="card-title">Real Estate</h3>
-                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your business forward with integrity and innovation.</p>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Practice04.png" alt="Real Estate Law" class="card-image">
+                        <h3 class="card-title">Divorce Litigation</h3>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Practice05.png" alt="Real Estate Law" class="card-image">
+                        <h3 class="card-title">Criminal Litigations</h3>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Practice06.jpg" alt="Real Estate Law" class="card-image">
+                        <h3 class="card-title">Company Litigation</h3>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Practice07.webp" alt="Real Estate Law" class="card-image">
+                        <h3 class="card-title">Rent Control Law</h3>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Images/Practice08.png" alt="Real Estate Law" class="card-image">
+                        <h3 class="card-title">Money Recovery Litigation</h3>
+                        <p class="card-text">We deliver strategic corporate commercial legal solutions to drive your
+                            business forward with integrity and innovation.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="approach" class="approach-section" aria-label="Our Approach">
-                <div class="section">
-                    <h2 class="section-title">Our Approach</h2>
-                    <div class="section-divider"></div>
-                    <div class="approach-content">
-                        <div>
-                            <p class="card-text">Client-Centered Approach: Your satisfaction and success are our top priorities. Expertise You Can Trust: Our team consists of seasoned professionals with a proven track record of excellence. Confidentiality and Integrity: We uphold the highest standards of ethics and discretion in all client interactions</p>
-                        </div>
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/89f8087d3b120178131762e6b6aed442c068a1aa830619bdf9fcb786714cdecc?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="Legal professionals in meeting" class="approach-image">
+        <section id="approach" class="approach-section pt-5" aria-label="Our Approach">
+            <div class="container">
+                <div class="approach-content">
+                    <!-- Text Card -->
+                    <div class="approach-text-card">
+                        <h3 class="card-title">OUR APPROACH</h3>
+                        <p class="card-text">
+                            Client-Centered Approach: Your satisfaction and success are our top priorities. <br><br>
+                            Expertise You Can Trust: Our team consists of seasoned professionals with a proven track record of excellence. <br><br>
+                            Confidentiality and Integrity: We uphold the highest standards of ethics and discretion in all client interactions.
+                        </p>
+                    </div>
+                    <!-- Image -->
+                    <div class="approach-image-container">
+                        <img src="Images/Approch.jpg" alt="Legal professionals in meeting" class="approach-image">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+        
 
-            <section id="success" class="success-section" aria-label="Success Stories">
-                <div class="section">
-                    <div class="success-container">
-                        <div class="success-image-container">
-                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f14dccd9e70b01ea97c34c338d0a51ba39a0f2f33b4b73337a184d642d17499c?placeholderIfAbsent=true&apiKey=e36e97a79b4d4551b8ff2eea2a9ae019" alt="NEXO LAW FIRM logo" class="logo">
+        <section id="success" class="success-section pt-5" aria-label="Success Stories">
+            <div class="container">
+                <div class="success-container">
+                    <!-- Image Section -->
+                    <div class="success-image-container">
+                        <img src="Images/Success.png" alt="NEXO LAW FIRM logo" class="img-fluid">
+                    </div>
+                    <!-- Content Section -->
+                    <div class="success-content">
+                        <h2 class="section-title">Success Stories</h2>
+                        <div class="section-divider"></div>
+                        <h3 class="card-title">Corporate Dispute Resolution</h3>
+                        <p class="card-text">Successfully resolved a complex shareholder dispute for a multinational
+                            company through strategic negotiation, avoiding lengthy litigation and preserving
+                            business operations.</p>
+                        <div class="testimonial">
+                            <p>"Thanks to NEXO LAW FIRM, we navigated a complex corporate dispute with ease. Their
+                                strategic approach and clear communication made all the difference. Truly top-notch
+                                legal expertise!" – R.K</p>
                         </div>
-                        <div class="success-content">
-                            <h2 class="section-title">Success Stories</h2>
-                            <div class="section-divider"></div>
-                            <h3 class="card-title">Corporate Dispute Resolution</h3>
-                            <p class="card-text">Successfully resolved a complex shareholder dispute for a multinational company through strategic negotiation, avoiding lengthy litigation and preserving business operations.</p>
-                            <div class="testimonial">
-                                <p>"Thanks to NEXO LAW FIRM, we navigated a complex corporate dispute with ease. Their strategic approach and clear communication made all the difference. Truly top-notch legal expertise!" – R.K</p>
-                            </div>
-                            <h3 class="card-title">Landmark Decisions</h3>
-                            <p class="card-text">Achieved a landmark judgment in a high-stakes commercial litigation case, securing significant compensation for our client and setting a favorable legal precedent.</p>
-                        </div>
+                        <h3 class="card-title">Landmark Decisions</h3>
+                        <p class="card-text">Achieved a landmark judgment in a high-stakes commercial litigation
+                            case, securing significant compensation for our client and setting a favorable legal
+                            precedent.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+
+    </div>
+    <footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © Copyright <span id="currentYear"></span> NEXO LAW FIRM. All Rights Reserved.
         </div>
-    </main>
+    </footer>
+    <script src="script.js"></script>
 
-    <script>
-        const navToggle = document.querySelector('.nav-toggle');
-        const navList = document.querySelector('.nav-list');
-
-        navToggle.addEventListener('click', () => {
-            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
-            navToggle.setAttribute('aria-expanded', !isExpanded);
-            navList.classList.toggle('active');
-        });
-    </script>
 </body>
+
 </html>
