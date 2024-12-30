@@ -35,6 +35,25 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.Abouthome-hdr {
+    background: url(/Images/AboutBanner.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: 150%; /* Adjust the zoom level; 100% is the original size */
+    background-position: 60% 60%; /* Adjust X (horizontal) and Y (vertical) axis */
+}
+.Practice-hdr {
+    background: url(/Images/PraBanner.jpg) no-repeat center center fixed;
+    background-position: 50% 50%; /* Adjust X (horizontal) and Y (vertical) axis */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Publications-hdr {
+    background: url(/Images/PublicationBanner.jpg) no-repeat center center fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    
 nav {
     width: 100%;
     display: flex;

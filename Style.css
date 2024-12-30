@@ -58,11 +58,12 @@
 }
 
 .section-divider {
-    width: 76px;
+    width: 100px;
     height: 2px;
     background-color: var(--primary-color);
     margin-bottom: 2rem;
 }
+
 .about-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -333,11 +334,12 @@
 }
 
 .section-divider {
-    width: 50px;
-    height: 4px;
-    background-color: var(--bg-blue);
-    margin-bottom: 1.5rem;
+    width: 100px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-bottom: 2rem;
 }
+
 
 .card-title {
     font-size: 1.5rem;
@@ -359,3 +361,221 @@
     border-left: 4px solid var(--bg-blue);
 }
 
+
+
+
+
+/*ABOUT PAGE*/
+
+.hero-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #ffffff; 
+}
+.hero-subtitle{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #ffffff; 
+}
+.AboutImg img {
+    width: 350px; 
+    height: 350px; 
+    border-radius: 100%;
+    box-shadow: var(--shadow-standard);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    color: #ff9900;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.footer-links h3, 
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ff9900;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ff9900;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+    border-top: 1px solid #333333;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+
+.reachUs-button {
+    padding: 1rem;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.reachUs-button:hover{
+    background-color: #1ac840;
+}
+
+/* banner section styles */
+.banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+/* Contact form styles */
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+/* Hamburger styles */
+.hamburger {
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    #nav-menu {
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        display: none;
+    }
+
+    #nav-menu.active {
+        display: block;
+        flex-direction: row;
+        padding: 1rem;
+
+
+    }
+}
