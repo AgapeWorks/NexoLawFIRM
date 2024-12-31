@@ -54,6 +54,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.desk-hdr {
+    background: url(/Images/desk-hdr.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: 150%; /* Adjust the zoom level; 100% is the original size */
+    background-position: 60% 60%; /* Adjust X (horizontal) and Y (vertical) axis */
+}
     
 nav {
     width: 100%;
