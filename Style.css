@@ -19,7 +19,7 @@
 .hero-content {
     position: absolute;
     bottom: 7%;
-    left: 5%;
+    left: 15%;
     margin-top: auto;
     margin-bottom: 5rem;
     padding-left: 5rem;
@@ -39,11 +39,60 @@
     margin-top: 1rem;
 }
 
+
 .hero-tagline {
     font-family: var(--font-secondary);
     font-size: 1.25rem;
     color: var(--text-light);
     margin-top: 2rem;
+}
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content {
+        left: 50%;
+    }
+
+    .hero-title {
+        font-size: 4.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+
+    .hero-content {
+        left: 0%;
+        bottom: 15%;
+    }
 }
 
 .main-content {
@@ -579,3 +628,152 @@ footer {
 
     }
 }
+
+.ContactImg{
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+/* General styling */
+
+
+.contact-form {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+.FormInputs, label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    .contact-form h2 {
+        font-size: 1.8rem;
+    }
+
+    .form-container h4 {
+        font-size: 1.3rem;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+    }
+
+    .submit-button {
+        font-size: 1rem;
+    }
+}
+
+.consultation-section {
+    background: linear-gradient(to right, #1a1a1a, #333333);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.consultation-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff9900;
+    text-transform: uppercase;
+}
+
+.consultation-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e6e6e6;
+}
+
+.consultation-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff9900;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.consultation-button:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
+
