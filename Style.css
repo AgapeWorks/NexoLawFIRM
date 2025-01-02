@@ -22,7 +22,7 @@
     left: 15%;
     margin-top: auto;
     margin-bottom: 5rem;
-    padding-left: 5rem;
+    padding-left: 6.5rem;
 }
 
 .hero-title {
@@ -599,34 +599,6 @@ footer {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     cursor: pointer;
-}
-
-/* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
-    .logo {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    #nav-menu {
-        position: absolute;
-        top: 4rem;
-        left: 0;
-        background-color: #333;
-        width: 100%;
-        display: none;
-    }
-
-    #nav-menu.active {
-        display: block;
-        flex-direction: row;
-        padding: 1rem;
-
-
-    }
 }
 
 .ContactImg{
