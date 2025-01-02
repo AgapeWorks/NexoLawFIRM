@@ -1,6 +1,5 @@
 $(document).ready(function() {
     document.getElementById("currentYear").textContent = new Date().getFullYear();
-    // Function to check if an element is in the viewport
     function isElementInViewport(el) {
         var rect = el.getBoundingClientRect();
         return (
@@ -22,4 +21,33 @@ $(document).ready(function() {
             $(".ix-nav").removeClass("ix-fixed");
         }
     });
+
+    jQuery(function ($) {
+        $('a.sywh-open-services').click(function () {
+          const services = $('.sywh-services');
+          const toggleIcon = $('a.sywh-open-services i');
+          const links = services.find('a');
+          
+          if (services.hasClass('active')) {
+            services.removeClass('active');
+            toggleIcon.filter('.fa-times').hide();
+            toggleIcon.filter('.fa-comments').show();
+            $('a.sywh-open-services').removeClass('data-tooltip-hide');
+            
+            links.each(function (index) {
+              $(this).delay(index * 100).fadeOut();
+            });
+          } else {
+            services.addClass('active');
+            toggleIcon.filter('.fa-comments').hide();
+            toggleIcon.filter('.fa-times').show();
+            $('a.sywh-open-services').addClass('data-tooltip-hide');
+            
+            $(links.get().reverse()).each(function (index) {
+              $(this).delay(index * 100).fadeIn();
+            });
+          }
+        });
+      });
+      
 });

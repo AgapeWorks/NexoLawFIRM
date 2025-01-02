@@ -60,6 +60,12 @@ body {
     background-size: 150%; /* Adjust the zoom level; 100% is the original size */
     background-position: 60% 60%; /* Adjust X (horizontal) and Y (vertical) axis */
 }
+.Appointment-hdr {
+    background: url(/Images/ContactUs.png) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
     
 nav {
     width: 100%;
