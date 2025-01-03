@@ -534,7 +534,13 @@
     padding: 40px 0;
     margin: 0 10px;
 }
-
+.contact-container{
+    padding-top: 7%;
+    background: url(/Images/contact-form.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 80% 100%;
+}
 .form-container {
     max-width: 40%;
     margin: 0 auto;
@@ -629,7 +635,7 @@ footer {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.1);
 }
 
 .form-container h4 {
@@ -668,11 +674,11 @@ textarea {
     resize: none;
 }
 
-.submit-button {
+.Contact-submit-button {
     width: 100%;
     padding: 10px;
     font-size: 1.2rem;
-    background-color: #007BFF;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -680,8 +686,8 @@ textarea {
     transition: background-color 0.3s ease;
 }
 
-.submit-button:hover {
-    background-color: #0056b3;
+.Contact-submit-button:hover {
+    background-color: #d3891a;
 }
 
 /* Responsive design */

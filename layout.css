@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #F2BF6D;
+    --primary-color: #ff9900;
     --text-dark: #000000;
     --text-light: #FFFFFF;
     --bg-overlay: rgba(0, 0, 0, 0.2);
@@ -27,6 +27,10 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
+}
+input:focus, textarea:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: none !important;
 }
 .home-hdr{
     background: url(/Images/BannerImg.jpg)no-repeat 50% 50%;
