@@ -32,7 +32,7 @@ body {
     background: url(/Images/BannerImg.jpg)no-repeat 50% 50%;
     background-attachment: fixed;
     background-size: 120%; /* Adjust the zoom level; 100% is the original size */
-    background-position: 60% 15%; 
+    background-position: 55% 15%; 
     background-repeat: no-repeat;
 }
 .Abouthome-hdr {
@@ -50,7 +50,7 @@ body {
 }
 .Publications-hdr {
     background: url(/Images/PublicationBanner.jpg) no-repeat center center fixed;
-    background-position: 50% 50%;
+    background-position: 50% 80%;
     background-size: cover;
     background-attachment: fixed;
 }
