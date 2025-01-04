@@ -70,6 +70,12 @@ input:focus, textarea:focus {
     background-size: 100%;
     
 }
+.ourTeam-hdr {
+    background: url(/Images/ourTeam.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
     
 nav {
     width: 100%;
