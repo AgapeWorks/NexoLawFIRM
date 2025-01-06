@@ -1058,7 +1058,7 @@ textarea {
   }
 
   /* team member */
-  .gray-bg {
+  /* .gray-bg {
     background-color: #f5f5f5;
 }
 .about-avatar{
@@ -1072,10 +1072,10 @@ textarea {
 .about-avatar img {
     vertical-align: middle;
     border-style: none;
-}
+} */
 /* About Me 
 ---------------------*/
-.about-text h3 {
+/* .about-text h3 {
   font-size: 45px;
   font-weight: 700;
   margin: 0 0 6px;
@@ -1177,4 +1177,28 @@ mark {
 }
 .dark-color {
     color: #20247b;
+} */
+.head-text{
+  color: var(--primary-color);
+}
+.member-name{
+  color: var(--primary-color);
+}
+.avatar img{
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.contact-detail {
+  color: #ffff;
+}
+.contact-detail a{
+  text-decoration: none;
+  color: #fff;
+}
+.contact-detail a:hover{
+  color: var(--primary-color);
+}
+.contact-detail i{
+  color: var(--primary-color);
 }
