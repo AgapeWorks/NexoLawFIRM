@@ -540,8 +540,7 @@
     padding-top: 7%;
     background: url(/Images/contact-form.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 80% 100%;
+    background-size: cover;
 }
 .form-container {
     max-width: 40%;
