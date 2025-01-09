@@ -41,7 +41,7 @@ input:focus, textarea:focus {
 .home-hdr{
     background: url(/Images/BannerImg.jpg)no-repeat 50% 50%;
     background-attachment: fixed;
-    background-size: 120%; /* Adjust the zoom level; 100% is the original size */
+    background-size: 150%; /* Adjust the zoom level; 100% is the original size */
     background-position: 55% 15%; 
     background-repeat: no-repeat;
 }
