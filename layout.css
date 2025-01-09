@@ -48,8 +48,7 @@ input:focus, textarea:focus {
 .Abouthome-hdr {
     background: url(/Images/AboutBanner.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: 120%; /* Adjust the zoom level; 100% is the original size */
-    background-position: 60% 60%; /* Adjust X (horizontal) and Y (vertical) axis */
+    background-size: cover;
 }
 .Practice-hdr {
     background: url(/Images/PraBanner.jpg) no-repeat center center fixed;
@@ -67,20 +66,23 @@ input:focus, textarea:focus {
 .desk-hdr {
     background: url(/Images/desk-hdr.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: 150%; /* Adjust the zoom level; 100% is the original size */
-    background-position: 60% 60%; /* Adjust X (horizontal) and Y (vertical) axis */
+    background-size: cover;
+   
 }
 .Appointment-hdr {
     background: url(/Images/ContactUs.png) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
 }
 .ourTeam-hdr {
     background: url(/Images/ourTeam.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
+}
+.navbar-collapse .navbar-nav{
+    align-items: end;
 }
     
 nav {

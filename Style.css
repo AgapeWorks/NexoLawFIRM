@@ -74,19 +74,9 @@
         font-size: 1rem; /* Reduce tagline font size */
       
     }
-
-    nav.ix-nav .navbar-toggler {
-        margin-right: 1rem;
-    }
-
     nav.ix-nav .navbar-nav {
         flex-direction: column; /* Stack menu items vertically */
-        align-items: center;
-    }
-
-    nav.ix-nav .nav-link {
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
+        align-items: end;
     }
 }
 
