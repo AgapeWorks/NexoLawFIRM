@@ -44,57 +44,69 @@
     font-family: var(--font-secondary);
     font-size: 1.25rem;
     color: var(--text-light);
-    margin-top: 2rem;
-}
-@media (max-width: 1200px) {
-    .hero-title {
-        font-size: 3.5rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.8rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .hero-content {
-        left: 50%;
-    }
-
-    .hero-title {
-        font-size: 4.5rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.6rem;
-    }
+   
 }
 
 @media (max-width: 768px) {
-    .hero-title {
-        font-size: 4rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.6rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .hero-title {
-        font-size: 4rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.6rem;
+    .home-hdr {
+        background-size: cover; /* Ensure the image scales well */
+        background-position: center; /* Center image on smaller screens */
     }
 
     .hero-content {
-        left: 0%;
-        bottom: 15%;
+        top: 50%;
+        left: 10%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        transform: translateY(-50%);
+    }
+
+    .hero-title {
+        font-size: 2.5rem; /* Reduce font size */
+    }
+
+    .hero-subtitle {
+        font-size: 2rem; /* Reduce font size */
+    }
+
+    .hero-tagline {
+        font-size: 1rem; /* Reduce tagline font size */
+      
+    }
+
+    nav.ix-nav .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    nav.ix-nav .navbar-nav {
+        flex-direction: column; /* Stack menu items vertically */
+        align-items: center;
+    }
+
+    nav.ix-nav .nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
     }
 }
 
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem; /* Further reduce font size for very small screens */
+    }
+
+    .hero-subtitle {
+        font-size: 2rem;
+    }
+
+    .hero-tagline {
+        font-size: 0.9rem;
+    }
+
+    .hero-content {
+        left: 5%;
+    }
+}
 .main-content {
     padding: 5rem 2rem;
 }
