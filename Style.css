@@ -537,7 +537,7 @@
     margin: 0 10px;
 }
 .contact-container{
-    padding-top: 7%;
+    padding-top: 2%;
     background: url(/Images/contact-form.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1101,5 +1101,10 @@ textarea {
 .Founder05{
     height: 450px;
     width: 400px;
+}
+.AddresContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
