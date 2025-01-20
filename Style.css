@@ -1107,4 +1107,10 @@ textarea {
     justify-content: center;
     align-items: center;
 }
-
+.addressHover{
+    color: #000;
+}
+.addressHover:hover {
+    color: var(--primary-color);
+    text-decoration: underline; 
+}
