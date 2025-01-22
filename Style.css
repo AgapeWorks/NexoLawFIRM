@@ -1171,4 +1171,6 @@ a[data-tooltip][data-placement="bottom"]::after {
     color: var(--primary-color);
     text-decoration: underline;
 }
-
+.contactinformation{
+    margin-bottom: 10px;
+}
