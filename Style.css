@@ -1037,7 +1037,12 @@ a[data-tooltip][data-placement="bottom"]::after {
     transform: translateY(100%);
     transition: all 0.3s;
 }
-
+.card-details{
+    transform: none !important;
+}
+.profile-cards .card:hover img {
+    transform: none;
+}
 .profile-cards .card .card-details-title a {
     text-decoration: none;
     color: #000;
